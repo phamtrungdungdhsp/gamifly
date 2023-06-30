@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: auto;
+}
+
+form .section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+input {
+  width: 100%;
+}
+
+form .price {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+form .price select {
+  flex: 2;
+}
+
+form .price select {
+  flex: 1;
+}
+
+form button {
+  width: 100%;
+  cursor: pointer;
+}
